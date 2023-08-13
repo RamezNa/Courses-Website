@@ -1,0 +1,33 @@
+ <!-- the popup add the course -->
+      <div class="containerPopup">
+        <div class="header">
+            <h1>Page Create Course</h1>
+            <img src="img/close.png" alt="cancel" class="btnClose">
+        </div>
+    
+        <form id="formAddCourse">
+            <label for="Cid">Course id</label><br>
+            <input type="text" id="Cid" name="course_id" required><br>
+
+            <label for="Cname">Course Name</label><br>
+            <input type="text" id="Cname" name="name" required><br>
+
+            <label for="Lname">lecturer Name</label><br>
+            <input type="text" id="Lname" name="lecturer" required><br>
+
+            <label for="Sdate">Start Date</label><br>
+            <input type="date" id="Sdate" name="start_date" required><br>
+
+            <label for="Edate">End Date</label><br>
+            <input type="date" id="Edate" name="end_date" required><br>
+
+            <label for="PRC">Pre Requisite Course</label><br>
+            <input type="text" id="PRC" name="prerequisite_course" required><br>
+            
+            label for="urlImg">Url Of Picture</label><br>
+            <input type="text" id="urlImg" name="picture" required><br>
+            
+            <input type="submit"  id="submit" class="btnSubmit" >
+        </form>
+    
+    </div>

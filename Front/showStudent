@@ -1,0 +1,11 @@
+	<div class="studentsListPopup">
+            <div class="header">
+                <h1>Page Show Students Of Course idCourse </h1>
+                <img src="img/close.png" alt="cancel" class="btnClose">
+            </div>
+        
+            <div class="listOfStudents">
+                <p>Student Id: , First Name: , Last Name: , Grade: , Picture: <img class="imgStudent" src="" </p>
+            </div>
+        
+        </div>

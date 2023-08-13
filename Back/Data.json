@@ -1,0 +1,23 @@
+{
+  "Example 0": {
+    "course_id": "Example 0",
+    "name": "This Example",
+    "lecturer": "Ramez Nassr",
+    "start_date": "21-02-1999",
+    "end_date": "02-12-2000",
+    "prerequisite_course": [
+      "123",
+      "654",
+      "789"
+    ],
+    "students": {
+      "48998": {
+        "student_id": "48998",
+        "firstname": "4654",
+        "surname": "54",
+        "picture": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.0/c_scale,w_400/ncom/en_US/games/switch/w/world-of-goo-switch/hero",
+        "grade": "45"
+      }
+    }
+  }
+}

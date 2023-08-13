@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin View</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <div class ="containerOfList">
+
+        <h1>List Of Courses</h1>
+        
+        <div class="container">
+            <div class="header headerhiden">
+                <h2 class="course_name">Course Name<b></b></h2>
+                <h2 class="course_id">Course Id<b></b></h2>
+                <img src="img/remove.png" class="removeImg">
+		<img src="img/edit.png" class="editeImg">
+                <img src="img/arrow-down-sign-to-navigate.png" class="expandImg">
+            </div>
+            <div class="expandContantHiden">
+                <h3 class="lecturer">lecturer<b>123456</b></h3>
+                
+                <div class="containerOfStudent">
+                    <h3>students <b class="addStudent">+</b> <img src="img/arrow-down-sign-to-navigate.png" class="showStudent"> </h3> 
+
+                    <div class="students">
+                        <h3 class="student_id">Student Id<b></b></h3>
+                        <h3 class="grade">grade<b></b></h3>
+                        <img src="img/remove.png" class="removeImg removeStudent">
+                    </div>
+
+                </div>
+
+                <div class="container_Of_prerequisite_courses">
+                    <h3>prerequisite Course</h3> 
+                    <div class="prerequisite_course">
+
+                        <h3 class="course_id">Course Id<b></b></h3>
+                        
+                    </div>
+
+                </div>
+
+                <div class="containerDate">
+                    <h3 class="start_date">Start Date<b></b></h3>
+                    <h3 class="end_date">End Date<b></b></h3>
+                </div>
+    
+            </div>
+            
+        </div>   
+        
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>

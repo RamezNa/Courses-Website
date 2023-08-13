@@ -1,0 +1,310 @@
+/* author by ramez nassar */
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/* desine the container of list */
+.btn_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+.label_btn{
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.label_btn:first-child{
+    padding: 0px 35px;
+}
+
+body h5{
+    font-size: 50px;
+    text-align: center;
+    margin: 1% 0px 0px 0px;
+    font-weight: 400;
+    transition: .5s;
+    cursor: pointer;
+}
+
+body h5:hover{
+    color: rgb(57, 255, 100);
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.192);
+}
+
+body h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+
+}
+
+body .containerOfList{
+    width: 85%;
+    margin: 2.5% 7%  5%  7%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(34, 34, 34, 0.13);
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+
+body .containerOfList b , body .containerOfList .container .expandContant h3 b {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(19, 19, 19);
+}
+
+body .containerOfList .container .expandContant .containerOfStudent .students h3 b , body .containerOfList .container .expandContant .container_Of_prerequisite_courses .prerequisite_course h3 b{
+    font-size: 17px;
+}
+
+
+body .containerOfList .container{
+    padding: 1.5%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+body .containerOfList .container .header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(34, 34, 34, 0.336);
+    padding-top: 14px;
+    width: 100%;
+    border-radius: 15px 15px 2px 2px;
+    padding-bottom: 15px;
+    transition: 1s;
+}
+
+body .containerOfList .container .headerhiden{
+    border-radius: 15px 15px !important;
+    box-shadow: 1px 3px 7px rgba(0, 0, 0, 0.432);
+}
+
+body .containerOfList .container .header .course_name{
+    flex:25%;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0;
+    padding-right: 12%;
+    padding-left: 15px;
+   
+}
+
+body .containerOfList .container .header .course_id{
+    flex:28%;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 0;
+    padding-right: 12%;
+}
+
+body .containerOfList .container .header img{
+    width: 2%;
+    height: 4%;
+    cursor: pointer;
+    padding-top: 2.5px;
+    margin-right: 15px; 
+    transition: .5s;  
+}
+
+
+body .containerOfList .container .header .removeImg{
+    margin-left: auto; 
+    width: 2.35%;
+
+}
+
+
+body .containerOfList .container .expandContant{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgba(34, 34, 34, 0.192);
+    padding-top: 14px;
+    border-radius: 2px 2px 15px 15px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    height: 100%;
+    transition: 1s;
+    box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.233);
+}
+
+body .containerOfList .container .expandContantHiden{
+    content-visibility: hidden;
+    height: 0%;
+}
+
+
+body .containerOfList .container .expandContant h3 ,body .containerOfList .container .expandContant b{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 8px;
+}
+
+body .containerOfList .container .expandContant .containerOfStudent{
+    display: flex;
+    flex-direction: column;
+}
+
+body .containerOfList .container .expandContant .containerOfStudent .addStudent{
+    font-size: 25px;
+    font-weight: 400;
+    transition: .5s;
+    cursor: pointer;  
+}
+
+body .containerOfList .container .expandContant .containerOfStudent .showStudent{
+    width: 1.5%;
+    cursor: pointer;
+    transform: rotate(-135deg);
+}
+
+body .containerOfList .container .expandContant .containerOfStudent .addStudent:hover{
+    color: rgb(57, 255, 100);
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.192);
+}
+
+body .containerOfList .container .expandContant .containerOfStudent .students , body .containerOfList .container .expandContant .containerDate{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 6px 0px;
+}
+
+body .containerOfList .container .expandContant .containerOfStudent .students .removeStudent{
+    width: 2%;
+    height: 4%;
+    cursor: pointer;
+    /* padding-top: 2.5px; */
+    margin-left: auto; 
+    margin-right: 15px; 
+}
+
+body .containerOfList .container .expandContant .containerOfStudent .students .student_id , body .containerOfList .container .expandContant .containerOfStudent .students .grade , body .containerOfList .container .expandContant .containerDate .start_date , body .containerOfList .container .expandContant .containerDate .end_date{
+    flex: 25%;
+}
+
+body .containerOfList .container .expandContant .containerOfStudent .students h3 , body .containerOfList .container .expandContant .container_Of_prerequisite_courses .prerequisite_course h3{
+    font-size: 17px;
+}
+
+body .containerOfList .container .expandContant .container_Of_prerequisite_courses .prerequisite_course{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+/* desine the popup changed */
+
+body .containerPopup ,.studentsListPopup{
+    width: 84%;
+    height: 84%;
+    position: fixed;
+    left: 5%;
+    top: 5%;    
+    background-color: rgb(235, 233, 233);
+    padding: 2%;
+    border-radius: 15px;
+    box-shadow: 2px 15px 10px rgba(0, 0, 0, 0.397);
+    text-align: center;
+    transition: 1s;
+    z-index: 1;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    
+}
+
+body .containerPopupHiden{
+    content-visibility: hidden;
+    padding: 0;
+}
+
+
+body .containerPopup h1 , .studentsListPopup h1{
+    margin-top: 1%;
+    margin-bottom: 25px;
+}
+
+body .containerPopup h6{
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+}
+
+body .containerPopup .header img , .studentsListPopup .header .btnClose{
+    width: 2.5%;
+    position: absolute;
+    top: 5%;
+    right: 4%;
+    cursor: pointer;
+}
+
+body .containerPopup form input{
+    margin-bottom: 15px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.233);
+    padding: 6px 25px;    
+}
+
+body .containerPopup form .btnSubmit{
+    padding: 10px 30px;
+    font-size: 14px;
+    font-family: inherit;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Show Students */
+.studentsListPopup .listOfStudents{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.studentsListPopup .listOfStudents p{
+    display: flex;
+    flex-direction: row;
+}
+
+.studentsListPopup .listOfStudents p .imgStudent{
+    width: 60px;
+    height: auto;
+    margin-top: -10px;
+}
+
+/* dorp down css */
+.dropdown {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 22px;
+  }
+  
+  .dropdown select {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  

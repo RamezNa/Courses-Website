@@ -1,0 +1,26 @@
+  <!-- the popup add student to the course -->
+     <div class="containerPopup">
+        <div class="header">
+            <h1>Page Add Student To The Course</h1>
+            <img src="img/close.png" alt="cancel" class="btnClose">
+        </div>
+        <form id="formAddStudent">
+            <label for="Sid">Student id</label><br>
+            <input type="number" id="Sid" name="student_id" required><br>
+
+            <label for="Fname">First Name</label><br>
+            <input type="text" id="Fname" name="firstname" required><br>
+
+            <label for="Lname">Last Name</label><br>
+            <input type="text" id="Lname" name="surname" required><br>
+
+            <label for="grade">Grade</label><br>
+            <input type="number" id="grade" name="grade" required><br>
+
+            <label for="urlImg">Url Of Picture</label><br>
+            <input type="text" id="urlImg" name="picture" required><br>
+            
+            <input type="submit"  id="submit" class="btnSubmit" >
+        </form>
+    
+    </div>
